@@ -1,2 +1,2 @@
 # todolist_project
-From launchschool-> How to package Ruby code
+From launchschool-> Packaging code into a Project
