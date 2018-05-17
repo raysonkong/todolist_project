@@ -1,0 +1,12 @@
+desc 'Say Hello'
+task :hello do
+	puts "Hello there! This is the 'Hello' Task"
+end
+
+desc 'Run Tests'
+task :test do
+	sh 'ruby ./test/todolist_project_test.rb'
+end
+
+desc 'Run Tests'
+task :default => :test
